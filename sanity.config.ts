@@ -5,10 +5,10 @@ import {schemaTypes} from './schemaTypes'
 
 export default defineConfig({
   name: 'default',
-  title: 'wex2',
+  title: 'Wexel Blog CMS',
 
-  projectId: 'f8xh0cr1',
-  dataset: 'production',
+  projectId: process.env.SANITY_PROJECT_ID!,
+  dataset: process.env.SANITY_DATASET!,
 
   plugins: [structureTool(), visionTool()],
 

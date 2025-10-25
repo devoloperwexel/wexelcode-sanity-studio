@@ -1,9 +1,10 @@
 {
-  "name": "wex2",
+  "name": "wexelcode-sanity-studio",
   "private": true,
   "version": "1.0.0",
   "main": "package.json",
   "license": "UNLICENSED",
+  "author": "thaksharadhananjaya@gmail.com",
   "scripts": {
     "dev": "sanity dev",
     "start": "sanity start",
@@ -12,7 +13,8 @@
     "deploy-graphql": "sanity graphql deploy"
   },
   "keywords": [
-    "sanity"
+    "wexelcode",
+    "blogs"
   ],
   "dependencies": {
     "@sanity/vision": "^4.11.0",
