@@ -10,6 +10,9 @@ export default defineCliConfig({
       'process.env.SANITY_PROJECT_ID': JSON.stringify(process.env.SANITY_PROJECT_ID),
       'process.env.SANITY_DATASET': JSON.stringify(process.env.SANITY_DATASET),
     },
+    server: {
+      port: 3333,
+    },
   },
   deployment: {
     /**
